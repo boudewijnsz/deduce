@@ -28,7 +28,7 @@ An interactive demo of the code can be found [here](http://ads.science.uu.nl/ded
 Installing can be done through pip and git: 
 
 ``` python
->>> pip install deduce
+>>> pip install git+https://github.com/boudewijnsz/deduce.git
 ```
 
 Or from source, simply download and use python to install:
