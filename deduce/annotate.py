@@ -450,7 +450,7 @@ def annotate_phonenumber(text):
 
 def annotate_patientnumber(text):
     """ Annotate patient numbers """
-    text = re.sub("(\d{7})(?![^<]*>)",
+    text = re.sub("(\b\d{7}\b)(?![^<]*>)",
                   "<PATIENTNUMMER \\1>",
                   text)
     return text
